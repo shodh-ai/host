@@ -11,9 +11,10 @@ sudo apt-get install git-lfs
 
 git clone https://huggingface.co/RUCKBReasoning/TableLLM-13b
 
-pip install -r requirements.txt 
 
-bash scripts/deploy_tablellm.sh
+pip install -r host/requirements.txt 
+
+bash host/scripts/deploy_tablellm.sh
 
 
 
