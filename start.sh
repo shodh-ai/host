@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Update the package list
 apt-get update
 
@@ -11,10 +10,9 @@ sudo apt-get install git-lfs
 
 git clone https://huggingface.co/RUCKBReasoning/TableLLM-13b
 
+pip install -r requirements.txt 
 
-pip install -r host/requirements.txt 
-
-bash host/scripts/deploy_tablellm.sh
+bash scripts/deploy_tablellm.sh
 
 
 
