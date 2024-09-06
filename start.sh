@@ -12,7 +12,7 @@ git clone https://huggingface.co/RUCKBReasoning/TableLLM-13b
 
 pip install -r requirements.txt 
 
-bash scripts/deploy_tablellm.sh
+nohup bash scripts/deploy_tablellm.sh
 
 
 
